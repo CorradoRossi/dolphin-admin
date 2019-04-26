@@ -12,7 +12,6 @@ class App extends Component {
           <Toolbar />
           <Main />      
         </div>
-        <script src=".assets/js/dolphin.js"></script>
       </div>
     );
   }
