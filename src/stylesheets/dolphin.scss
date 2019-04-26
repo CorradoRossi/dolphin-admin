@@ -1,17 +1,24 @@
+// Import Bootstrap scss files
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 @import "scss/variables";
 @import "scss/layout";
 
 @import "scss/navigation";
+@import "scss/toolbar";
 @import "scss/content";
 @import "scss/card";
 @import "scss/notification";
 @import "scss/stats";
 @import "scss/table";
-@import "scss/toolbar";
+
+.App {
+  display: flex;
+  min-height: 100vh;
+}
 
 .logo {
-    max-height: 60px;
-    padding-right: 10px;
-  }
+  max-height: 60px;
+  padding-right: 10px;
+}

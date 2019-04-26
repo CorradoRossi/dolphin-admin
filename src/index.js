@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './stylesheets/spur.scss'
+import './stylesheets/dolphin.scss'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

@@ -8722,6 +8722,14 @@ h1 {
 body {
   background: #E9EDF4; }
 
+.dash {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh; 
+}
+
 .dash-app {
   display: -webkit-box;
   display: -webkit-flex;
