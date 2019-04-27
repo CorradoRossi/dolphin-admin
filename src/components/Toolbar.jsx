@@ -16,7 +16,7 @@ class Toolbar extends React.Component {
                     <input type="text" className="searchbox-input" placeholder="type to search"></input>
                 </form>
                 <div className="tools">
-                    <a href="https://github.com/HackerThemes/spur-template" target="_blank" className="tools-item">
+                    <a href="https://github.com/corradorossi/dolphin-admin" target="_blank" className="tools-item">
                         <i className="fab fa-github"></i>
                     </a>
                     <a href="#!" className="tools-item">
@@ -28,8 +28,8 @@ class Toolbar extends React.Component {
                             <i className="fas fa-user"></i>
                         </a>
                         <div className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
-                            <a className="dropdown-item" href="#!">Profile</a>
-                            <a className="dropdown-item" href="login.html">Logout</a>
+                            <a className="dropdown-item" href="/admin/profile">Profile</a>
+                            <a className="dropdown-item" href="/auth/login">Logout</a>
                         </div>
                     </div>
                 </div>

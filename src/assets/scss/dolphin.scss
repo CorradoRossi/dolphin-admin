@@ -1,6 +1,6 @@
 // Import Bootstrap scss files
 
-@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../bootstrap/scss/bootstrap.scss";
 
 @import "variables";
 @import "layout";
@@ -21,4 +21,13 @@
 .logo {
   max-height: 60px;
   padding-right: 10px;
+}
+
+.btn-secondary {
+  background-color: #181F2B;
+  border: none;
+
+  &:focus {
+    box-shadow: none;
+  }
 }
