@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class Toolbar extends Component {
+class Toolbar extends React.Component {
     render() {
         return (
             <header className="dash-toolbar">

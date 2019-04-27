@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Chart} from 'chart.js';
 
-class Charts extends Component {
+class Charts extends React.Component {
 
     constructor(props) {
         super(props);
@@ -39,7 +39,7 @@ class Charts extends Component {
     render() {
 
         return (
-            <div class="card-body spur-card-body-chart">
+            <div className="card-body spur-card-body-chart">
                 <canvas id="spurChartjsBar" 
                         ref={ctx => (this.ctx = ctx)} 
                         />                        

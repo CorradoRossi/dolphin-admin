@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import Charts from './Charts/Charts'; 
+import React from 'react';
+import Charts from './Charts/Charts.jsx'; 
 
-class Main extends Component {
+class Main extends React.Component {
 
     render() {
 

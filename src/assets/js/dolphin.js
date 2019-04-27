@@ -1,6 +1,6 @@
 /*!
  * Dolphin - A Bootstrap 4 admin template
- * Version v0.0.1
+ * Version v0.0.2
  * Copyright 2019 MotoRossi
  * https://github.com/CorradoRossi
  */
