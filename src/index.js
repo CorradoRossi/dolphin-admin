@@ -6,19 +6,19 @@ import AdminLayout from './layouts/Admin.jsx';
 import AuthLayout from './layouts/Auth.jsx';
 import ChartsPage from './views/ChartsPage';
 import Content from './views/examples/Content';
+//import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename="/dolphin-admin">
         <Switch>
-            <Route path="/dolphin-admin/home" render={props => <AdminLayout {...props} />} />
-            <Route path="/dolphin-admin/auth" render={props => <AuthLayout {...props} />} />
-            <Route path="/dolphin-admin/charts" render={props => <ChartsPage {...props} />} />
-            <Route path="/dolphin-admin/content" render={props => <Content {...props} />} />
-            <Redirect from="/" to="/dolphin-admin/home" />
+            <Route path="/home" render={props => <AdminLayout {...props} />} />
+            <Route path="/auth" render={props => <AuthLayout {...props} />} />
+            <Route path="/charts" render={props => <ChartsPage {...props} />} />
+            <Route path="/content" render={props => <Content {...props} />} />
+            <Redirect from="/" to="/home" />
         </Switch>
     </BrowserRouter>,
 document.getElementById('root')
 );
 
-//import * as serviceWorker from './serviceWorker';
 //serviceWorker.unregister();
