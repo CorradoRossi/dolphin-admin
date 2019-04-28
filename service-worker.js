@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dolphin-admin/precache-manifest.e4ef16ed7123c5f4a4422f8846540f27.js"
+  "/dolphin-admin/precache-manifest.3bd7f997259e0dc91d3afc4361b58a2c.js"
 );
 
 workbox.clientsClaim();
