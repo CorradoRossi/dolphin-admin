@@ -36,7 +36,7 @@ class Index extends React.Component {
           {...this.props}
           routes={routes}
           logo={{
-            innerLink: '/home/index',
+            innerLink: '/dolphin-admin/home',
             imgSrc: require('../assets/img/logo.svg'),
             imgAlt: 'Dolphin'
           }}
