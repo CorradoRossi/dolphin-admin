@@ -6,25 +6,25 @@ import Content from "./views/examples/Content.jsx";
 
 var routes = [
     {
-        path: '/home',
+        path: 'dolphin-admin/home',
         name: 'Home',
         component: AdminLayout,
         layout: '/admin'
     },
     {
-        path: '/login',
+        path: 'dolphin-admin/login',
         name: 'auth',
         component: AuthLayout,
         layout: '/auth'
     },
     {
-        path: '/charts',
+        path: 'dolphin-admin/charts',
         name: 'charts',
         component: ChartsPage,
         layout: '/admin'
     },
     {
-        path: '/content',
+        path: 'dolphin-admin/content',
         name: 'content',
         component: Content,
         layout: '/admin'
