@@ -9,7 +9,7 @@ import Content from './views/examples/Content';
 //import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <BrowserRouter basename="/dolphin-admin">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
             <Route path="/home" render={props => <AdminLayout {...props} />} />
             <Route path="/auth" render={props => <AuthLayout {...props} />} />
