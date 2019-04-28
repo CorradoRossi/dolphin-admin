@@ -1,0 +1,43 @@
+// Import Bootstrap scss files
+
+@import "../bootstrap/scss/bootstrap.scss";
+
+@import "variables";
+@import "layout";
+
+@import "navigation";
+@import "toolbar";
+@import "content";
+@import "card";
+@import "notification";
+@import "stats";
+@import "table";
+
+.App {
+  display: flex;
+  min-height: 100vh;
+}
+
+.logo {
+  max-height: 60px;
+  padding-right: 10px;
+}
+
+.btn-secondary {
+  background-color: #181F2B;
+  border: none;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.tools-item > .btn-secondary,
+.tools-item > .dropdown-menu {
+  background-color: #F3F3F3;
+  border: none;
+}
+
+.tools-item > .btn-secondary:hover {
+  color: #212529;
+}
