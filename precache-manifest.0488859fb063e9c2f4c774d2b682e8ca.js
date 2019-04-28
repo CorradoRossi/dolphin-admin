@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/dolphin-admin/static/js/runtime~main.4eec82db.js"
   },
   {
-    "revision": "f963ba0de088e908d6c7",
-    "url": "/dolphin-admin/static/js/main.9f353e26.chunk.js"
+    "revision": "820d7724649048f73efe",
+    "url": "/dolphin-admin/static/js/main.7df67bc0.chunk.js"
   },
   {
     "revision": "b4892d19a82dbe764031",
     "url": "/dolphin-admin/static/js/2.cbc6c83c.chunk.js"
   },
   {
-    "revision": "f963ba0de088e908d6c7",
+    "revision": "820d7724649048f73efe",
     "url": "/dolphin-admin/static/css/main.1ead4a5c.chunk.css"
   },
   {
-    "revision": "54846253c492a7d93127d681f405bca3",
+    "revision": "9eb4d2f5a3e8dc3644a512287621ed67",
     "url": "/dolphin-admin/index.html"
   }
 ];
