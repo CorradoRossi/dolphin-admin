@@ -4,11 +4,11 @@ import { Route, Switch } from 'react-router-dom';
 //core components
 import Sidebar from '../components/Sidebar.jsx';
 import Toolbar from '../components/Toolbar.jsx';
-import Main from '../components/Main.jsx';
+import ChartsDash from '../views/ChartsDash';
 
 import routes from '../routes';
 
-class AdminLayout extends React.Component {
+class ChartsPage extends React.Component {
   constructor(props) {
     super(props) 
     this.state = {
@@ -79,11 +79,11 @@ class AdminLayout extends React.Component {
             toggleClassName={ this.handleClick }
           />
           <Switch>{this.getRoutes(routes)}</Switch>
-          <Main />      
+          <ChartsDash />      
         </div>
       </div>
     );
   }
 }
 
-export default AdminLayout;
+export default ChartsPage;

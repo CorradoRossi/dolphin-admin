@@ -31,7 +31,7 @@ class Index extends React.Component {
 
   render() {
     return (
-      <div className="App">      
+      <div className="App dash">      
         <Sidebar 
           {...this.props}
           routes={routes}

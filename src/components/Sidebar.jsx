@@ -11,7 +11,7 @@ class Sidebar extends React.Component {
         return (
             <div className="dash-nav dash-nav-dark">
                 <header>
-                    <a href="#!" className="menu-toggle">
+                    <a href="#!" className="menu-toggle" onClick={this.props.toggleClassname}>
                         <i className="fas fa-bars"></i>
                     </a>
                     <a href={logo.innerLink} className="spur-logo"> 
@@ -26,17 +26,18 @@ class Sidebar extends React.Component {
                     </a>
                 </header>
                 <div className="dash-nav-list">
-                    <a href="index.html" className="dash-nav-item">
+                    <a href="/" className="dash-nav-item">
                         <i className="fas fa-home"></i> Dashboard </a>
                     <UncontrolledDropdown className="dash-nav-dropdown">
                         <DropdownToggle className="dash-nav-item dash-nav-dropdown-toggle">
                             <i className="fas fa-chart-bar"></i> Charts </DropdownToggle>
                         <DropdownMenu className="dash-nav-dropdown-menu">
-                            <DropdownItem href="chartjs.html" className="dash-nav-dropdown-item">Chart.js</DropdownItem>
+                            <DropdownItem href="/charts" className="dash-nav-dropdown-item">Chart.js</DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
                     <UncontrolledDropdown className="dash-nav-dropdown ">
-                        <DropdownToggle className="dash-nav-item dash-nav-dropdown-toggle"><i className="fas fa-cube"></i> Components </DropdownToggle>
+                        <DropdownToggle className="dash-nav-item dash-nav-dropdown-toggle">
+                        <i className="fas fa-cube"></i> Components </DropdownToggle>
                         <DropdownMenu className="dash-nav-dropdown-menu">
                             <DropdownItem href="cards.html" className="dash-nav-dropdown-item">Cards</DropdownItem>
                             <DropdownItem href="forms.html" className="dash-nav-dropdown-item">Forms</DropdownItem>

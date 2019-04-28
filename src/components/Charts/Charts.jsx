@@ -41,8 +41,8 @@ class Charts extends React.Component {
         return (
             <div className="card-body spur-card-body-chart">
                 <canvas id="spurChartjsBar" 
-                        ref={ctx => (this.ctx = ctx)} 
-                        />                        
+                    ref={ctx => (this.ctx = ctx)} 
+                />                        
             </div>
         );
     }

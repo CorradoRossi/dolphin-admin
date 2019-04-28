@@ -31,3 +31,13 @@
     box-shadow: none;
   }
 }
+
+.tools-item > .btn-secondary,
+.tools-item > .dropdown-menu {
+  background-color: #F3F3F3;
+  border: none;
+}
+
+.tools-item > .btn-secondary:hover {
+  color: #212529;
+}
