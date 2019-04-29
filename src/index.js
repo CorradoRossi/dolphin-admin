@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import './assets/scss/dolphin.scss';
 import AdminLayout from './layouts/Admin.jsx';
 import AuthLayout from './layouts/Auth.jsx';
@@ -9,7 +9,7 @@ import Content from './views/examples/Content';
 //import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
         <Switch>
             <Route path="/home" render={props => <AdminLayout {...props} />} />
             <Route path="/auth" render={props => <AuthLayout {...props} />} />
@@ -17,7 +17,7 @@ ReactDOM.render(
             <Route path="/content" render={props => <Content {...props} />} />
             <Redirect from="/" to="/home" />
         </Switch>
-    </BrowserRouter>,
+    </HashRouter>,
 document.getElementById('root')
 );
 

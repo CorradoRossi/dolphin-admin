@@ -17,9 +17,9 @@ class Sidebar extends React.Component {
                     <a href={logo.innerLink} className="spur-logo"> 
                         { logo ? (
                         <img
-                            alt={logo.imgAlt}
                             className="logo"
                             src={logo.imgSrc}
+                            alt={logo.imgAlt}
                         />
                         ) : null }
                         <span>Dolphin</span>
@@ -32,7 +32,7 @@ class Sidebar extends React.Component {
                         <DropdownToggle className="dash-nav-item dash-nav-dropdown-toggle">
                             <i className="fas fa-chart-bar"></i> Charts </DropdownToggle>
                         <DropdownMenu className="dash-nav-dropdown-menu">
-                            <DropdownItem href="/charts" className="dash-nav-dropdown-item">Chart.js</DropdownItem>
+                            <DropdownItem href="#/charts" className="dash-nav-dropdown-item">Chart.js</DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
                     <UncontrolledDropdown className="dash-nav-dropdown ">
@@ -48,17 +48,17 @@ class Sidebar extends React.Component {
                         </DropdownMenu>
                     </UncontrolledDropdown>
                     <UncontrolledDropdown className="dash-nav-dropdown">
-                        <DropdownToggle href="#!" className="dash-nav-item dash-nav-dropdown-toggle">
+                        <DropdownToggle className="dash-nav-item dash-nav-dropdown-toggle">
                             <i className="fas fa-file"></i> Layouts </DropdownToggle>
                         <DropdownMenu className="dash-nav-dropdown-menu">
                             <DropdownItem href="blank.html" className="dash-nav-dropdown-item">Blank</DropdownItem>
-                            <DropdownItem href="content.html" className="dash-nav-dropdown-item">Content</DropdownItem>
+                            <DropdownItem href="#/content" className="dash-nav-dropdown-item">Content</DropdownItem>
                             <DropdownItem href="login.html" className="dash-nav-dropdown-item">Log in</DropdownItem>
                             <DropdownItem href="signup.html" className="dash-nav-dropdown-item">Sign up</DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
                     <UncontrolledDropdown className="dash-nav-dropdown">
-                        <DropdownToggle href="#!" className="dash-nav-item dash-nav-dropdown-toggle">
+                        <DropdownToggle className="dash-nav-item dash-nav-dropdown-toggle">
                             <i className="fas fa-info"></i> About </DropdownToggle>
                         <DropdownMenu className="dash-nav-dropdown-menu">
                             <DropdownItem href="https://github.com/CorradoRossi/dolphin-admin" target="_blank" className="dash-nav-dropdown-item">GitHub</DropdownItem>

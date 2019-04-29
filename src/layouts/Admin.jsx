@@ -67,7 +67,7 @@ class AdminLayout extends React.Component {
           toggleClassName={ this.handleClick }
           routes={routes}
           logo={{
-            innerLink: '/home/index',
+            innerLink: '/',
             imgSrc: require('../assets/img/logo.svg'),
             imgAlt: 'Dolphin'
           }}
