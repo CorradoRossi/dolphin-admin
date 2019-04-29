@@ -1,13 +1,13 @@
 {
   "main.css": "/dolphin-admin/static/css/main.1ead4a5c.chunk.css",
-  "main.js": "/dolphin-admin/static/js/main.e1ace7d2.chunk.js",
-  "main.js.map": "/dolphin-admin/static/js/main.e1ace7d2.chunk.js.map",
+  "main.js": "/dolphin-admin/static/js/main.d8e3fec3.chunk.js",
+  "main.js.map": "/dolphin-admin/static/js/main.d8e3fec3.chunk.js.map",
   "runtime~main.js": "/dolphin-admin/static/js/runtime~main.4eec82db.js",
   "runtime~main.js.map": "/dolphin-admin/static/js/runtime~main.4eec82db.js.map",
   "static/js/2.3eae281b.chunk.js": "/dolphin-admin/static/js/2.3eae281b.chunk.js",
   "static/js/2.3eae281b.chunk.js.map": "/dolphin-admin/static/js/2.3eae281b.chunk.js.map",
   "index.html": "/dolphin-admin/index.html",
-  "precache-manifest.7fcc69fa2c46184291de6a0425d29674.js": "/dolphin-admin/precache-manifest.7fcc69fa2c46184291de6a0425d29674.js",
+  "precache-manifest.cf395de7484a6fe9d59a9da2c7951a2f.js": "/dolphin-admin/precache-manifest.cf395de7484a6fe9d59a9da2c7951a2f.js",
   "service-worker.js": "/dolphin-admin/service-worker.js",
   "static/css/main.1ead4a5c.chunk.css.map": "/dolphin-admin/static/css/main.1ead4a5c.chunk.css.map",
   "static/media/logo.svg": "/dolphin-admin/static/media/logo.0c0d5c25.svg"
