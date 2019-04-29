@@ -67,7 +67,7 @@ class ChartsPage extends React.Component {
           toggleClassName={ this.handleClick }
           routes={routes}
           logo={{
-            innerLink: '/dolphin-admin/home',
+            innerLink: '/home',
             imgSrc: require('../assets/img/logo.svg'),
             imgAlt: 'Dolphin'
           }}

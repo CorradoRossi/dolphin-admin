@@ -26,7 +26,7 @@ class Sidebar extends React.Component {
                     </a>
                 </header>
                 <div className="dash-nav-list">
-                    <a href="/" className="dash-nav-item">
+                    <a href="#/" className="dash-nav-item">
                         <i className="fas fa-home"></i> Dashboard </a>
                     <UncontrolledDropdown className="dash-nav-dropdown">
                         <DropdownToggle className="dash-nav-item dash-nav-dropdown-toggle">
@@ -39,22 +39,22 @@ class Sidebar extends React.Component {
                         <DropdownToggle className="dash-nav-item dash-nav-dropdown-toggle">
                         <i className="fas fa-cube"></i> Components </DropdownToggle>
                         <DropdownMenu className="dash-nav-dropdown-menu">
-                            <DropdownItem href="cards.html" className="dash-nav-dropdown-item">Cards</DropdownItem>
-                            <DropdownItem href="forms.html" className="dash-nav-dropdown-item">Forms</DropdownItem>
-                            <DropdownItem href="stats.html" className="dash-nav-dropdown-item">Stats</DropdownItem>
-                            <DropdownItem href="tables.html" className="dash-nav-dropdown-item">Tables</DropdownItem>
-                            <DropdownItem href="typography.html" className="dash-nav-dropdown-item">Typography</DropdownItem>
-                            <DropdownItem href="userinterface.html" className="dash-nav-dropdown-item">User Interface</DropdownItem>
+                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Cards</DropdownItem>
+                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Forms</DropdownItem>
+                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Stats</DropdownItem>
+                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Tables</DropdownItem>
+                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Typography</DropdownItem>
+                            <DropdownItem href="#/" className="dash-nav-dropdown-item">User Interface</DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
                     <UncontrolledDropdown className="dash-nav-dropdown">
                         <DropdownToggle className="dash-nav-item dash-nav-dropdown-toggle">
                             <i className="fas fa-file"></i> Layouts </DropdownToggle>
                         <DropdownMenu className="dash-nav-dropdown-menu">
-                            <DropdownItem href="blank.html" className="dash-nav-dropdown-item">Blank</DropdownItem>
+                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Blank</DropdownItem>
                             <DropdownItem href="#/content" className="dash-nav-dropdown-item">Content</DropdownItem>
-                            <DropdownItem href="login.html" className="dash-nav-dropdown-item">Log in</DropdownItem>
-                            <DropdownItem href="signup.html" className="dash-nav-dropdown-item">Sign up</DropdownItem>
+                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Log in</DropdownItem>
+                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Sign up</DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
                     <UncontrolledDropdown className="dash-nav-dropdown">

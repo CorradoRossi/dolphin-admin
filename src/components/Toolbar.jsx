@@ -5,11 +5,12 @@ class Toolbar extends React.Component {
     constructor(props) {
         super(props);
     }
-    
+
     render() {
+        const hash = window.location;
         return (
             <header className="dash-toolbar">
-                <a href="#!" className="menu-toggle" onClick={ this.props.toggleClassName }>
+                <a href={hash} className="menu-toggle" onClick={ this.props.toggleClassName }>
                     <i className="fas fa-bars"></i>
                 </a>
                 <a href="#!" className="searchbox-toggle">
@@ -25,19 +26,19 @@ class Toolbar extends React.Component {
                         <i className="fab fa-github"></i>
                     </a>
                     <UncontrolledDropdown className="dropdown tools-item">
-                        <DropdownToggle href="#" className="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <DropdownToggle href={hash} className="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i className="fas fa-bell"></i>
                             <i className="tools-item-count">4</i>
                         </DropdownToggle>
                         <DropdownMenu className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
-                            <DropdownItem className="dropdown-item" href="/admin/profile">Notification 1</DropdownItem>
-                            <DropdownItem className="dropdown-item" href="/auth/login">Notification 2</DropdownItem>
-                            <DropdownItem className="dropdown-item" href="/admin/profile">Notification 3</DropdownItem>
-                            <DropdownItem className="dropdown-item" href="/auth/login">Notification 4</DropdownItem>
+                            <DropdownItem className="dropdown-item" href="#/admin/profile">Notification 1</DropdownItem>
+                            <DropdownItem className="dropdown-item" href="#/auth/login">Notification 2</DropdownItem>
+                            <DropdownItem className="dropdown-item" href="#/admin/profile">Notification 3</DropdownItem>
+                            <DropdownItem className="dropdown-item" href="#/auth/login">Notification 4</DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
                     <UncontrolledDropdown className="dropdown tools-item">
-                        <DropdownToggle href="#" className="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <DropdownToggle href={hash} className="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i className="fas fa-user"></i>
                         </DropdownToggle>
                         <DropdownMenu className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
