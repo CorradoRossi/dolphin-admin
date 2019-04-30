@@ -2,10 +2,10 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 //core components
-import Sidebar from '../../components/Sidebar.jsx';
-import Toolbar from '../../components/Toolbar.jsx';
+import Sidebar from '../components/Sidebar.jsx';
+import Toolbar from '../components/Toolbar.jsx';
 
-import routes from '../../routes';
+import routes from '../routes';
 
 class Content extends React.Component {
   constructor(props) {
@@ -67,7 +67,7 @@ class Content extends React.Component {
           routes={routes}
           logo={{
             innerLink: '/home/index',
-            imgSrc: require('../../assets/img/logo.svg'),
+            imgSrc: require('../assets/img/logo.svg'),
             imgAlt: 'Dolphin'
           }}
         />

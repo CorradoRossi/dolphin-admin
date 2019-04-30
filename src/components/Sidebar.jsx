@@ -39,22 +39,20 @@ class Sidebar extends React.Component {
                         <DropdownToggle className="dash-nav-item dash-nav-dropdown-toggle">
                         <i className="fas fa-cube"></i> Components </DropdownToggle>
                         <DropdownMenu className="dash-nav-dropdown-menu">
-                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Cards</DropdownItem>
-                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Forms</DropdownItem>
-                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Stats</DropdownItem>
-                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Tables</DropdownItem>
-                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Typography</DropdownItem>
-                            <DropdownItem href="#/" className="dash-nav-dropdown-item">User Interface</DropdownItem>
+                            <DropdownItem href="#/cards" className="dash-nav-dropdown-item">Cards</DropdownItem>
+                            <DropdownItem href="#/forms" className="dash-nav-dropdown-item">Forms</DropdownItem>
+                            <DropdownItem href="#/stats" className="dash-nav-dropdown-item">Stats</DropdownItem>
+                            <DropdownItem href="#/tables" className="dash-nav-dropdown-item">Tables</DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
                     <UncontrolledDropdown className="dash-nav-dropdown">
                         <DropdownToggle className="dash-nav-item dash-nav-dropdown-toggle">
                             <i className="fas fa-file"></i> Layouts </DropdownToggle>
                         <DropdownMenu className="dash-nav-dropdown-menu">
-                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Blank</DropdownItem>
+                            <DropdownItem href="#/blank" className="dash-nav-dropdown-item">Blank</DropdownItem>
                             <DropdownItem href="#/content" className="dash-nav-dropdown-item">Content</DropdownItem>
-                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Log in</DropdownItem>
-                            <DropdownItem href="#/" className="dash-nav-dropdown-item">Sign up</DropdownItem>
+                            <DropdownItem href="#/auth" className="dash-nav-dropdown-item">Log in</DropdownItem>
+                            <DropdownItem href="#/signup" className="dash-nav-dropdown-item">Sign up</DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
                     <UncontrolledDropdown className="dash-nav-dropdown">
