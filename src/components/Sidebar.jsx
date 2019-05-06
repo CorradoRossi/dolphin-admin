@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 class Sidebar extends React.Component {
@@ -26,8 +27,7 @@ class Sidebar extends React.Component {
                     </a>
                 </header>
                 <div className="dash-nav-list">
-                    <a href="#/" className="dash-nav-item">
-                        <i className="fas fa-home"></i> Dashboard </a>
+                    <Link to="/#" className="dash-nav-item"><i className="fas fa-home"></i> Dashboard </Link>                    
                     <UncontrolledDropdown className="dash-nav-dropdown">
                         <DropdownToggle className="dash-nav-item dash-nav-dropdown-toggle">
                             <i className="fas fa-chart-bar"></i> Charts </DropdownToggle>
