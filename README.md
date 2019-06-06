@@ -1,3 +1,3 @@
 # Dolphin Admin Template
 
-todo:
+todo: Nivo graphs and charts
